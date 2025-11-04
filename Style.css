@@ -1,6 +1,42 @@
-.fila1{
-    color: aqua;
+h1{
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    font-size: 40px;
 }
-.fila2{
-    color: blue;
+
+body {
+    background: linear-gradient(to right, rgba(62,78,78,0.95), rgba(75,90,90,0.95));
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+.navbar a {
+    color: white;
+    padding: 10px 9px;
+    text-decoration: none;
+    background: linear-gradient(90deg, #efc556, #e4b64a);
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 25px;
+}
+.navbar a:hover {
+    background: linear-gradient(90deg, #ffd97e, #f5c96b);
+}
+.navbar li.contacto {
+    margin-left: auto;
+}
+img {
+  display: block; /* Important: Images are inline by default; convert to block */
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  /* Optionally set a width, e.g., width: 80%; */
+}
+footer h2.Aprende{
+    text-align: center;
 }
