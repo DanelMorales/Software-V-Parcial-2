@@ -98,8 +98,8 @@ h1{
   width: 90%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columnas */
-  gap: 20px; /* espacio entre tarjetas */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
 }
 .bloque {
   background: #fff;
